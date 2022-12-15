@@ -70,10 +70,6 @@ action:
             target:
               entity_id: !input light
             data:
-              brightness: 254
-              hs_color:
-                - 38.222
-                - 52.941
               transition: "{{ (var_speed / 1000)|float }}"
 
       # Long-Press the on button
